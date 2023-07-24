@@ -1,0 +1,19 @@
+.Pdf{
+  display: flex;
+  align-items: flex-start;
+  align-self: start;
+  border-top: 2px solid var(--gray-color);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  line-height: 0;
+}
+
+.title {
+  margin-right: 20px;
+  margin-left: 20px;
+  align-self: center;
+}
+
+.lang{
+ align-self: center;
+}

@@ -1,0 +1,19 @@
+.MyDropzone{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  height: 108px;
+  padding: 14px 16px;
+  border-radius: 5px;
+  border: 1px dashed var(--blue-color);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+  color:  #474A57;
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}

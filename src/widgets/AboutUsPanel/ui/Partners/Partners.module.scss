@@ -1,0 +1,33 @@
+.Partners{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 60px;
+  img{
+    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-right: 0;
+  }
+}
+
+.Title{
+  margin-bottom: 30px;
+}
+
+.border{
+  text-align:center;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(0.25turn, rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6), rgba(192, 204, 218, 0.1));
+  border-image-slice: 1;
+  width:100%;
+}
+
+
+@media (max-width: 500px) {
+  .Title{
+    margin-bottom: 20px;
+  }
+}
+

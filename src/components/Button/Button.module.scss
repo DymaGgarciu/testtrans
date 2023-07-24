@@ -1,0 +1,50 @@
+.Button{
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: var(--blue-color);
+  border-radius: 8px;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-manrope);
+  &:hover{
+    opacity: 95%;
+  }
+  &:active
+  {
+    transform: scale(0.99);
+    transition: transform 0.1s ease;
+  }
+}
+
+
+
+.head{
+  margin-top: 0;
+  font-size: 14px;
+  background-color: transparent;
+  color: var(--black-color);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-manrope);
+  margin-right: 30px;
+  border-bottom: 2px solid transparent;
+  &:hover{
+    opacity: 95%;
+  }
+  &:active
+  {
+    transform: scale(0.99);
+    transition: transform 0.1s ease;
+  }
+}
+
+.activeBtn {
+  transform: translateY(.5px);
+  border-bottom: 2px solid var(--active-orange-color);
+}
+
+

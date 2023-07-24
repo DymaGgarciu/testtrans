@@ -1,0 +1,85 @@
+.SecondNav {
+  height: 52px;
+  //display: flex;
+  //align-items: center;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    line-height: 50px;
+  }
+}
+
+.secondNavs {
+  display: flex;
+  justify-content: flex-start;
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    margin-right: 5px;
+  }
+}
+
+.toForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--active-orange-color);
+  font-family: var(--font-manrope);
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  img {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 890px) {
+  .SecondNav {
+    margin-top: 30px;
+    height: auto;
+    border-bottom: none;
+  }
+
+  .secondNavs {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 28px;
+
+  }
+
+
+}
+
+
+@media (max-height: 421px) {
+  .SecondNav {
+    margin-top: 5px;
+  }
+
+  .secondNavs {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .toForm {
+    font-size: 12px;
+  }
+}

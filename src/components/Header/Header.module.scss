@@ -1,0 +1,25 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-manrope);
+  border-bottom: 1px solid var(--gray-color);
+  //height: 64px;
+  height: auto;
+}
+
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 890px) {
+  .Header {
+    border-bottom: none;
+  }
+}
+
+
+

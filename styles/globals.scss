@@ -1,0 +1,53 @@
+:root {
+  --black-color: #18191F;
+  --blue-color: #03418A;
+  --active-orange-color: #FE6B44;
+  --white-color: #fff;
+  --gray-color: #DADADA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  -ms-overflow-style: none; /* IE 10+ */
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: none !important;
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar {
+    width: 3px !important;
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+}
+
+/* Style the custom scroll bar */
+body::-webkit-scrollbar {
+  width: 0; /* Adjust the width as desired */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background:  transparent; /* Change the alpha value (0.2) to control transparency */
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+

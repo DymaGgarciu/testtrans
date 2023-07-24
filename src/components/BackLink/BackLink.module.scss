@@ -1,0 +1,29 @@
+
+
+
+.BackLink {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-self: center;
+  color: var(--black-color)!important;
+  font-family: var(--font-roboto);
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  p{
+    line-height: 16px;
+  }
+
+  .svg{
+    filter: invert(61%) sepia(81%) saturate(3533%) hue-rotate(333deg) brightness(102%) contrast(99%);
+  }
+
+  img{
+    rotate:180deg;
+    transform: translateY(0.5px);
+  }
+}

@@ -1,0 +1,28 @@
+.SlideHeight{
+  height: 500px !important;
+  font-family: var(--font-roboto);
+
+}
+
+
+
+
+.swiper-pagination-bullet {
+  border: 2px solid white;
+  background: transparent;
+  height: 10px;
+  width: 10px;
+}
+
+
+.swiper-pagination-bullet-active {
+  background: var(--white-color);
+  border: none;
+
+}
+
+@media (max-width: 500px) {
+  .SlideHeight{
+    height: 300px !important;
+  }
+}

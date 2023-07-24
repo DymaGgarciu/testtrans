@@ -1,0 +1,17 @@
+.Advantages{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Title{
+  margin-bottom: 30px;
+}
+
+
+@media (max-width: 500px) {
+  .Title{
+    margin-bottom: 20px;
+  }
+}

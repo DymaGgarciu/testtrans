@@ -1,0 +1,48 @@
+.Title {
+  font-family: var(--font-roboto);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.Black{
+  color:var(--black-color);
+  line-height: 72px;
+  letter-spacing: 2px;
+}
+
+.Blue{
+  color: var(--blue-color);
+  line-height: 36px;
+}
+
+.Card_Type{
+  font-size: 24px;
+  font-family: var(--font-manrope);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+
+.typography {
+  font-family: var(--font-roboto);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+}
+
+@media (max-width: 500px) {
+  .Title {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .typography {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+  }
+}

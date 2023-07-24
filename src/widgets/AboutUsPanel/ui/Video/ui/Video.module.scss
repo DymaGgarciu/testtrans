@@ -1,0 +1,53 @@
+.Container{
+    width: 570px;
+    height: 320px;
+
+  position: absolute;
+}
+
+.player {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: -1;
+
+}
+
+.playBtn{
+  position: relative;
+  top: -50%;
+  left: 50%;
+
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 9999;
+
+  &:hover{
+    opacity: 80%;
+  }
+
+  img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+@media (max-width: 651px ) {
+  .Container{
+    width: 340px;
+    height: 190px;
+  }
+
+  .playBtn{
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+

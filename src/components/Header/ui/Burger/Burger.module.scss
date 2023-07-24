@@ -1,0 +1,51 @@
+.BurgerHead{
+  width: 100%;
+  button{
+    height: 34px;
+  }
+}
+
+.Burger{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width:100%;
+  align-items: center;
+}
+
+.logo{
+  transform: translateY(9%);
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.firstHead{
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.fullPageMenu{
+  min-height: calc(100vh - 52px);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.btn{
+  margin-top: 0!important;
+  display: flex;
+  align-items: center;
+  background-color: transparent!important;
+  height: auto!important;
+}
+
+.lastHead{
+  border-top: 1px solid var(--gray-color);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

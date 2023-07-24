@@ -1,0 +1,20 @@
+.Languages  {
+  display: flex;
+  align-items: center;
+  input[type="radio"]{
+    display: none;
+  }
+  input[type="radio"]:checked + label {
+    color: var(--active-orange-color)
+  }
+  label{
+    margin-right: 10px;
+    color: var(--text-gray-900, #18191F);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+
+
+

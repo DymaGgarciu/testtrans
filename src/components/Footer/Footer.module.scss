@@ -1,0 +1,28 @@
+.Footer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  gap: 70px;
+  bottom: 0;
+}
+.top{
+  margin-top: 100px;
+}
+
+
+@media (max-width: 1114px) {
+  .Footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 100px;
+    bottom: 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .top{
+    margin-top: 50px;
+  }
+}

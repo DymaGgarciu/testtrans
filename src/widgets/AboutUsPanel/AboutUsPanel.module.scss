@@ -1,0 +1,9 @@
+.wrap{
+  margin-top: 100px;
+}
+
+@media (max-width: 500px) {
+  .wrap{
+    margin-top: 50px;
+  }
+}

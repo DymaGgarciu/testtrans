@@ -1,0 +1,43 @@
+.Compensate{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blockPosition{
+  height: 500px;
+}
+
+
+.content{
+  margin-top: 80px;
+}
+
+
+.btn{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  line-height: 30px;
+  width: 303px;
+  height: auto;
+  padding: 8px 32px 8px 34px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 501px) {
+
+  .blockPosition{
+    height: 300px;
+  }
+
+
+  .content{
+    margin-top: 25px;
+  }
+
+
+}

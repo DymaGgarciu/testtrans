@@ -1,0 +1,83 @@
+.TabsBox{
+  background: rgba(3, 65, 138, 0.05);
+  padding-left: 20px;
+  padding-right: 20px;
+  .Tabs  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    max-width: 75%;
+    font-family: var(--font-manrope);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: red;
+  }
+  .active {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 11px 19px;
+    border-radius: 21.5px;
+    transition: all  150ms;
+    transition-timing-function: ease-in-out;
+    font-weight: 700;
+  }
+
+  .tabHeader { font-weight: 700;
+    transition: all linear 50ms;
+    cursor: pointer;
+    padding: 11px 19px;
+    background-color: var(--gray-color);
+    border-radius: 21.5px;
+    color: var(--black-color);
+  }
+
+
+  .tabPanel {
+    min-height: 100%;
+  }
+
+  .wrap{
+    margin-top: 100px;
+  }
+}
+
+.Title{
+  margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+  .Title{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 900px){
+  .TabsBox{
+    .Tabs  {
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 15px;
+      height: fit-content;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      max-width: 100%;
+    }
+
+    .tabHeader {
+      margin-bottom: 10px;
+    }
+
+    .active {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+
+
+
+

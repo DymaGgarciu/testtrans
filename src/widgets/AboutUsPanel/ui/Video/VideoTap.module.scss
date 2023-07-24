@@ -1,0 +1,49 @@
+.Videos{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+.info{
+  max-width: 395px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.text{
+  font-family: var(--font-roboto);
+  font-weight: 800;
+  line-height: 28px;
+  margin-bottom: 18px;
+}
+
+.Title{
+  margin-bottom: 30px;
+}
+
+
+@media (max-width: 1040px){
+  .Videos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+  }
+
+  .info{
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .Title{
+    margin-bottom: 20px;
+  }
+  .text{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+  }
+}

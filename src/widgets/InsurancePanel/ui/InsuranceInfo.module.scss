@@ -1,0 +1,28 @@
+.more{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  font-weight: 700;
+  line-height: 30px;
+  width: 303px;
+  height: auto;
+  padding: 8px 32px 8px 34px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 500px){
+  .btn{
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    padding: 8px 5px 8px 5px;
+    justify-content: center;
+    align-items: center;
+  }
+}

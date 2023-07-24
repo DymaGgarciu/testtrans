@@ -1,0 +1,31 @@
+.Phone {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  button{
+    display: flex;
+    align-items: center;
+    img{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+  }
+}
+
+
+
+
+//.button {
+//  text-decoration: none;
+//  font-size: 14px;
+//  font-weight: 700;
+//  color: var(--black-color);
+//  background-color: ;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  img {
+//    margin-right: 10px;
+//  }
+//}
